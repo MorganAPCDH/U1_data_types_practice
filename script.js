@@ -83,3 +83,68 @@ let cathleen = ['Cathleen', 186, 'New York'];
 // Change Cathleen's hometown from New York to "Gotham City".
 
 // Remove "Pittsburgh" from Kristyn's array and add "Oakland".
+
+//let myFavoriteSong = "bodies"
+//console.log(myFavoriteSong)
+
+let style = `classic`
+let sauce = `marinara`
+let topping = `peperoni`
+//console.log(style)
+//console.log(sauce)
+//console.log(topping)
+//console.log(`I will have a ${style}, ${sauce} sauce pizza, with ${topping} please.`)
+
+let x = 12
+//console.log(x)
+//console.log(x + 5)
+//console.log(x - 5)
+//console.log(x * 2)
+//console.log(x * 3)
+//console.log(x / 7)
+//console.log(x % 2)
+
+let firstName = `Morgan`
+//console.log(`Hello everyone, my first name is ${firstName}.`)
+let lastName = `Cantu`
+//console.log(`And if you would like to know, my last name is ${lastName}.`)
+let fullName = firstName + lastName
+//console.log(fullName)
+//console.log(`Hello my name is ${fullName}.`)
+
+let movies = [`spiderman`, `LOTR`]
+//console.log(movies[1])
+movies.unshift(`Tangled`)
+movies.push(`StarWars`)
+movies.splice(1, 0, `Sandlot`)
+//console.log(movies)
+
+let array1 = ['Marty Marion', 'Marty Feldman', 'Marty McFly', 'Marty Marion'];
+let array2 = [
+    ['Marty Feldman', 'Marty Marion'],
+    ['Marty Stuart', 'Marty McFly'],
+    ['Marty Jannetty', 'Marty Robbins']
+  ];
+  let array3 = [
+    ['Marty Feldman', ['Marty Marion']],
+    ['Marty Stuart', ['Marty Janetty', ['Marty McFly'], 'Marty Robbins']]
+  ];
+//console.log(array1[2])
+//console.log(array2[1][1])
+//console.log(array3[1][1][1])
+
+let array4 = ['a', 'b', 'c', 'd', 'e'];
+//console.log(array4[array4.length - 2])
+
+let thom = ['Thom', 1000, 'Christchurch'];
+let karolin = ['Karolin', 16, 'New York'];
+let kristyn = ['Kristyn', 5, 'Pittsburgh'];
+let cathleen = ['Cathleen', 186, 'New York'];
+thom[0] = `Tom`
+karolin[1] = `17`
+cathleen[2] = `Gotham City`
+kristyn[2] = `Oakland`
+//console.log(thom)
+//console.log(karolin)
+//console.log(kristyn)
+//console.log(cathleen)
